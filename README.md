@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="banner.png" alt="RedzepTech Labs banner" width="100%" />
+</p>
+
+
 # RedzepTech Labs
 
 Experimental cybersecurity research, scripts, and detection labs.
