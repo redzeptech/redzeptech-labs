@@ -29,3 +29,20 @@ A quick triage helper to identify potentially suspicious running processes.
 #### Run
 ```powershell
 powershell -ExecutionPolicy Bypass -File scripts/suspicious-process-finder.ps1
+
+---
+
+## 🧪 LAB-02 — Persistence Scanner (Windows)
+
+Checks common persistence locations for incident response triage.
+
+### 🔍 What it checks
+
+- Startup registry entries  
+- Scheduled tasks outside Microsoft path  
+- Auto-start services outside System32  
+
+### ▶️ How to run
+
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts/persistence-scanner.ps1
