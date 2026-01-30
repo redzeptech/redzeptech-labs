@@ -46,3 +46,19 @@ Checks common persistence locations for incident response triage.
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File scripts/persistence-scanner.ps1
+
+## 🧪 LAB-03 — System Activity Timeline Builder
+
+Creates a basic system activity timeline using event logs.
+
+### Checks
+- System boot time  
+- User logons  
+- Service state changes  
+
+### Run
+powershell -ExecutionPolicy Bypass -File scripts/timeline-builder.ps1
+
+### Output
+timeline.csv
+
