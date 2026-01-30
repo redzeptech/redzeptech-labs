@@ -64,3 +64,18 @@ powershell -ExecutionPolicy Bypass -File scripts/timeline-builder.ps1
 ### Output
 timeline.csv
 
+---
+
+## 🧪 LAB-04 — Suspicious Network Connection Analyzer
+
+Analyzes active network connections and maps them to processes.
+
+### Checks
+- Non-localhost established connections  
+- Process-to-connection mapping  
+
+### Run
+powershell -ExecutionPolicy Bypass -File scripts/network-connection-analyzer.ps1
+
+### Output
+suspicious_connections.csv
