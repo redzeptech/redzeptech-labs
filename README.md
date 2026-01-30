@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="banner.png" alt="RedzepTech Labs banner" width="100%" />
+  <img src="redzeptech labs.png" alt="RedzepTech Labs banner" width="100%" />
 </p>
 
 
