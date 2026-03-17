@@ -1,0 +1,11 @@
+services:
+  lab_env:
+    build: .
+    volumes:
+      # evidence: isimsiz volume — dosyalar konteyner içinde kalır, Windows'a düşmez (Kaspersky taramaz)
+      - /app/evidence
+      - ./analysis:/app/analysis
+      - ./reports:/app/reports
+      - ./core:/app/core
+    # Arka planda (-d) çalışırken konteynerin ayakta kalması için
+    command: ["sleep", "infinity"]

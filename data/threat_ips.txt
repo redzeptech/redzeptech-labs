@@ -1,0 +1,8 @@
+# Bilinen zararlı IP listesi (intel_checker için)
+# Her satıra bir IPv4 adresi. # ile başlayan satırlar yorumdur.
+# Örnek: C2 sunucuları, kötü amaçlı hosting
+# Bu dosya opsiyoneldir; yoksa simüle liste kullanılır.
+
+# Örnek IP'ler (test için - gerçek tehdit listesi kullanın):
+# 185.220.101.1
+# 45.142.212.61

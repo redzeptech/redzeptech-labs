@@ -1,0 +1,57 @@
+# ===========================================
+# RedzepTech Labs — .gitignore
+# __pycache__, .env, evidence/, analysis/, reports/ GitHub'a gitmez.
+# Klasör yapısı .gitkeep ile korunur.
+# ===========================================
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# --- Ortam Değişkenleri ---
+.env
+.env.*
+!.env.example
+
+# --- evidence/ — Ham kanıtlar ve büyük dosyalar ---
+evidence/*
+!evidence/.gitkeep
+!evidence/README.md
+
+# --- analysis/ — Analiz sonuçları ---
+analysis/*
+!analysis/.gitkeep
+
+# --- reports/ — PDF raporlar ---
+reports/*
+!reports/.gitkeep
+
+# --- Sanal Ortam ---
+.venv/
+venv/
+ENV/
+env/
+
+# --- Build / Dağıtım ---
+build/
+dist/
+*.egg-info/
+*.egg
+
+# --- IDE / Editör ---
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# --- İşletim Sistemi ---
+.DS_Store
+Thumbs.db
+
+# --- Log / Geçici ---
+*.log
+*.db-journal

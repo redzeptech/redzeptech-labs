@@ -1,0 +1,31 @@
+# RedzepTech Labs — Bağımlılıklar
+# pip install -r requirements.txt
+
+# Sentetik test verisi üretimi
+faker>=22.0.0
+
+# Veri analizi ve işleme
+pandas>=2.0.0
+
+# PDF rapor oluşturma
+fpdf2>=2.7.0
+
+# PE dosya analizi
+pefile>=2023.2.7
+
+# YARA kural motoru
+yara-python>=4.3.0
+
+# Şifreli ZIP (vault)
+pyzipper>=0.3.6
+
+# Ağ trafiği analizi
+scapy>=2.5.0
+
+# Harita görselleştirme (network_visualizer)
+matplotlib>=3.7.0
+cartopy>=0.23.0
+plotly>=5.18.0
+kaleido>=0.2.0
+folium>=0.15.0
+geoip2>=4.7.0

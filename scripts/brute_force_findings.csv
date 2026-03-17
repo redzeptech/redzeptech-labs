@@ -1,0 +1,7 @@
+type,source,target_user,failed_attempts,unique_users_tried,source_ips_count,failed_before_success
+HIGH_FAILURE_IP,129.153.x.x,j****1,15,1,,
+HIGH_FAILURE_IP,149.198.x.x,l****2,5,1,,
+HIGH_FAILURE_IP,88.80.x.x,l****2,5,1,,
+HIGH_FAILURE_IP,167.89.x.x,l****2,5,1,,
+DISTRIBUTED_ATTACK,,l****2,15,,3,
+POSSIBLE_COMPROMISE,129.153.x.x,j****1,,,,15

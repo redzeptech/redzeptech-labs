@@ -1,0 +1,38 @@
+[
+  {
+    "EventID": 4624,
+    "TargetUserName": "a***n",
+    "IpAddress": "192.168.x.x",
+    "TimeCreated": "2024-01-15T10:23:45Z"
+  },
+  {
+    "EventID": 4625,
+    "TargetUserName": "a***********r",
+    "IpAddress": "10.0.x.x",
+    "TimeCreated": "2024-01-15T10:24:01Z"
+  },
+  {
+    "EventID": 4625,
+    "TargetUserName": "a***n",
+    "IpAddress": "192.168.x.x",
+    "TimeCreated": "2024-01-15T10:24:02Z"
+  },
+  {
+    "EventID": 4624,
+    "TargetUserName": "u***1",
+    "IpAddress": "172.16.x.x",
+    "TimeCreated": "2024-01-15T10:25:00Z"
+  },
+  {
+    "EventID": 4625,
+    "TargetUserName": "g***t",
+    "IpAddress": "203.0.x.x",
+    "TimeCreated": "2024-01-15T10:26:00Z"
+  },
+  {
+    "EventID": 4624,
+    "TargetUserName": "s********p",
+    "IpAddress": "10.0.x.x",
+    "TimeCreated": "2024-01-15T10:27:00Z"
+  }
+]

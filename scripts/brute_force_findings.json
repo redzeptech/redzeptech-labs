@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "anonymized": true,
+    "kvkk_compliant": true,
+    "description": "Tüm IP adresleri ve kullanıcı adları anonimleştirilmiştir."
+  },
+  "findings": [
+    {
+      "type": "HIGH_FAILURE_IP",
+      "source": "203.0.x.x",
+      "target_user": "u***1",
+      "failed_attempts": 5,
+      "unique_users_tried": 1
+    },
+    {
+      "type": "HIGH_FAILURE_IP",
+      "source": "198.51.x.x",
+      "target_user": "a***********r",
+      "failed_attempts": 21,
+      "unique_users_tried": 5
+    },
+    {
+      "type": "HIGH_FAILURE_IP",
+      "source": "10.0.x.x",
+      "target_user": "s********p",
+      "failed_attempts": 11,
+      "unique_users_tried": 1
+    },
+    {
+      "type": "DISTRIBUTED_ATTACK",
+      "target_user": "a***n",
+      "source_ips_count": 2,
+      "failed_attempts": 8
+    },
+    {
+      "type": "POSSIBLE_COMPROMISE",
+      "source": "203.0.x.x",
+      "target_user": "u***1",
+      "failed_before_success": 5
+    },
+    {
+      "type": "POSSIBLE_COMPROMISE",
+      "source": "192.168.x.x",
+      "target_user": "a***n",
+      "failed_before_success": 3
+    }
+  ],
+  "summary": {
+    "total_findings": 6,
+    "by_type": {
+      "HIGH_FAILURE_IP": 3,
+      "DISTRIBUTED_ATTACK": 1,
+      "POSSIBLE_COMPROMISE": 2
+    }
+  }
+}
